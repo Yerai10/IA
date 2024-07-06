@@ -1,0 +1,8 @@
+path: /content/masks2
+test: /content/masks2/test/images  # dataset root dir
+train: /content/masks2/train/images  # train images (relative to 'path')
+val: /content/masks2/val/images     # images (relative to 'path')
+
+# Classes
+nc: 3  # number of classes
+names: ['No usa mascarilla','Uso Correcto','Uso Incorrecto']
